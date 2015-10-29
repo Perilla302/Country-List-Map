@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6341B1C1BDC27AE00BD4CCD /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B6341B1B1BDC27AE00BD4CCD /* MyObject.m */; settings = {ASSET_TAGS = (); }; };
 		B6E4C4BD1BDAC75B008CB7F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E4C4BC1BDAC75B008CB7F9 /* main.m */; };
 		B6E4C4C01BDAC75B008CB7F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E4C4BF1BDAC75B008CB7F9 /* AppDelegate.m */; };
 		B6E4C4C31BDAC75B008CB7F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E4C4C21BDAC75B008CB7F9 /* ViewController.m */; };
@@ -15,6 +16,10 @@
 		B6E4C4CB1BDAC75B008CB7F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E4C4C91BDAC75B008CB7F9 /* LaunchScreen.storyboard */; };
 		B6E4C4D61BDAC75B008CB7F9 /* Country_List_MapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E4C4D51BDAC75B008CB7F9 /* Country_List_MapTests.m */; };
 		B6E4C4E11BDAC75B008CB7F9 /* Country_List_MapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E4C4E01BDAC75B008CB7F9 /* Country_List_MapUITests.m */; };
+		B6E4C4EF1BDAC87E008CB7F9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E4C4EE1BDAC87E008CB7F9 /* MapKit.framework */; };
+		B6F90B991BDC0677002618F1 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F90B981BDC0677002618F1 /* ListViewController.m */; };
+		B6F90B9C1BDC068B002618F1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F90B9B1BDC068B002618F1 /* DetailViewController.m */; };
+		B6F90B9F1BDC0698002618F1 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F90B9E1BDC0698002618F1 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B6341B1A1BDC27AE00BD4CCD /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		B6341B1B1BDC27AE00BD4CCD /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
 		B6E4C4B81BDAC75B008CB7F9 /* Country List Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Country List Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E4C4BC1BDAC75B008CB7F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6E4C4BE1BDAC75B008CB7F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,13 @@
 		B6E4C4DC1BDAC75B008CB7F9 /* Country List MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Country List MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E4C4E01BDAC75B008CB7F9 /* Country_List_MapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Country_List_MapUITests.m; sourceTree = "<group>"; };
 		B6E4C4E21BDAC75B008CB7F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E4C4EE1BDAC87E008CB7F9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		B6F90B971BDC0677002618F1 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		B6F90B981BDC0677002618F1 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		B6F90B9A1BDC068B002618F1 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B6F90B9B1BDC068B002618F1 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B6F90B9D1BDC0698002618F1 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		B6F90B9E1BDC0698002618F1 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6E4C4EF1BDAC87E008CB7F9 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,7 @@
 		B6E4C4AF1BDAC75B008CB7F9 = {
 			isa = PBXGroup;
 			children = (
+				B6E4C4EE1BDAC87E008CB7F9 /* MapKit.framework */,
 				B6E4C4BA1BDAC75B008CB7F9 /* Country List Map */,
 				B6E4C4D41BDAC75B008CB7F9 /* Country List MapTests */,
 				B6E4C4DF1BDAC75B008CB7F9 /* Country List MapUITests */,
@@ -105,6 +121,12 @@
 				B6E4C4BF1BDAC75B008CB7F9 /* AppDelegate.m */,
 				B6E4C4C11BDAC75B008CB7F9 /* ViewController.h */,
 				B6E4C4C21BDAC75B008CB7F9 /* ViewController.m */,
+				B6F90B971BDC0677002618F1 /* ListViewController.h */,
+				B6F90B981BDC0677002618F1 /* ListViewController.m */,
+				B6F90B9A1BDC068B002618F1 /* DetailViewController.h */,
+				B6F90B9B1BDC068B002618F1 /* DetailViewController.m */,
+				B6F90B9D1BDC0698002618F1 /* MapViewController.h */,
+				B6F90B9E1BDC0698002618F1 /* MapViewController.m */,
 				B6E4C4C41BDAC75B008CB7F9 /* Main.storyboard */,
 				B6E4C4C71BDAC75B008CB7F9 /* Assets.xcassets */,
 				B6E4C4C91BDAC75B008CB7F9 /* LaunchScreen.storyboard */,
@@ -117,6 +139,8 @@
 		B6E4C4BB1BDAC75B008CB7F9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B6341B1A1BDC27AE00BD4CCD /* MyObject.h */,
+				B6341B1B1BDC27AE00BD4CCD /* MyObject.m */,
 				B6E4C4BC1BDAC75B008CB7F9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -273,8 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6F90B9C1BDC068B002618F1 /* DetailViewController.m in Sources */,
 				B6E4C4C31BDAC75B008CB7F9 /* ViewController.m in Sources */,
+				B6341B1C1BDC27AE00BD4CCD /* MyObject.m in Sources */,
 				B6E4C4C01BDAC75B008CB7F9 /* AppDelegate.m in Sources */,
+				B6F90B9F1BDC0698002618F1 /* MapViewController.m in Sources */,
+				B6F90B991BDC0677002618F1 /* ListViewController.m in Sources */,
 				B6E4C4BD1BDAC75B008CB7F9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +529,7 @@
 				B6E4C4E71BDAC75B008CB7F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6E4C4E81BDAC75B008CB7F9 /* Build configuration list for PBXNativeTarget "Country List MapTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +538,7 @@
 				B6E4C4EA1BDAC75B008CB7F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6E4C4EB1BDAC75B008CB7F9 /* Build configuration list for PBXNativeTarget "Country List MapUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +547,7 @@
 				B6E4C4ED1BDAC75B008CB7F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
